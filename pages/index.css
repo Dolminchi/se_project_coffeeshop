@@ -137,3 +137,8 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.video {
+  width: 560px;
+  height: 315px;
+}
