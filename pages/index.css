@@ -177,7 +177,7 @@
   border: none;
 }
 
-.form__lable {
+.form__label {
   text-align: center;
   color: #000;
   font-family: Inter;
@@ -233,7 +233,7 @@
   height: 20px;
 }
 
-.form__lable_type_checkbox {
+.form__label_type_checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;

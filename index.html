@@ -26,14 +26,21 @@
             alt="Tirple Espresso Logo"
             class="nav__logo"
           />
-          <ul>
-            <li class="nav__links">
-              <a id="Recipes" class="nav__link" href="#recipes">Recipes</a>
-              <a id="Book a tabel" class="nav__link" href="#book-a-table"
-                >Book a table</a
-              >
-              <a id="Menu" class="nav__link" href="#menu">Menu</a>
-              <a id="Contacts" class="nav__link" href="#contacts">Contacts</a>
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#book-a-table">Book a table</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -47,7 +54,7 @@
         </p>
         <img
           src="./images/inside_coffee_shop.png"
-          alt="Coffe Shop Illustration"
+          alt="Coffee Shop Illustration"
           class="header__image"
         />
         <div class="header__footer">
@@ -101,7 +108,7 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="name-input" class="form__lable"
+              <label for="name-input" class="form__label"
                 >Name *
                 <input
                   id="name-input"
@@ -111,7 +118,7 @@
                   placeholder="Name Surname"
                 />
               </label>
-              <label for="number-input" class="form__lable"
+              <label for="number-input" class="form__label"
                 >Number of guests *
                 <input
                   id="number-input"
@@ -123,7 +130,7 @@
                   max="8"
                 />
               </label>
-              <label for="date-input" class="form__lable"
+              <label for="date-input" class="form__label"
                 >Date & time *
                 <input
                   id="date-input"
@@ -132,7 +139,7 @@
                   class="form__input"
                 />
               </label>
-              <label for="email-input" class="form__lable"
+              <label for="email-input" class="form__label"
                 >Your email *
                 <input
                   id="email-input"
@@ -146,7 +153,7 @@
             <button class="form__button">Book a table</button>
             <label
               for="checkbox-input"
-              class="form__lable form__lable_type_checkbox"
+              class="form__label form__label_type_checkbox"
             >
               <input
                 id="checkbox-input"
